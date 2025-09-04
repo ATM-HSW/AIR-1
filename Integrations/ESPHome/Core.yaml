@@ -389,6 +389,9 @@ text_sensor:
         return std::string("Extremely abnormal");}
       else {
         return std::string("Unknown");}
+  - platform: version
+    name: ESPHome Version
+    hide_timestamp: true
 
 switch:
   - platform: factory_reset
