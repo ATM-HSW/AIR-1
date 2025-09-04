@@ -29,7 +29,7 @@ esphome:
     - light.turn_off: rgb_light
 
 dashboard_import:
-  package_import_url: github://ApolloAutomation/AIR-1/Integrations/ESPHome/AIR-1.yaml
+  package_import_url: github://ATM-HSW/AIR-1/Integrations/ESPHome/AIR-1.yaml
   import_full_config: false
 
 logger:
